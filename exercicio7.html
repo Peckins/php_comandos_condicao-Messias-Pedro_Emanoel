@@ -3,11 +3,11 @@
 <meta charset="utf-8">
 <meta name="viewport"  content="width=device-width, intial-scale=1.0">
 <head>
-	<title>Exercício 1</title>
+	<title>Exercício 7</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link  rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="js/jquery.min.js"></script>
-	<script src="bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 	<!--navbar-->
@@ -64,17 +64,30 @@
 				<div class="jumbotron text-center">
 
 					<!--Formulário de preenchimento-->
-					<form action="exercicio1.php" method="POST">
+					<form action="exercicio7.php" method="POST">
 						<div class="form-group">
 
-							<h4 class="text-center mb-3 mt-0">Exercício 1</h4>
+							<h4 class="text-center mb-3 mt-0">Exercício 7</h4>
 							
 							<div class="input-group mb-3">
 								<div class="input-group-prepend">
-									<span class="input-group-text bg-primary text-white">Valor<span>
+									<span class="input-group-text bg-primary text-white">Sexo<span>
 								</div>
 
-								<input type="number" class="form-control" aria-label="Default" name="valor1" placeholder="digite o número aqui" required>
+								<select class="form-control" name="sexo" required>
+									<option value="" selected>Selecione</option>
+									<option value="Feminino">Masculino</option>
+									<option value="Masculino">Feminino</option>
+								</select>
+							</div>
+							
+							<div class="input-group mb-3">
+								<div class="input-group-prepend">
+									<span class="input-group-text bg-primary text-white">Altura<span>
+								</div>
+
+								
+								<input type="number" step="any" class="form-control" aria-label="Default" name="altura" placeholder="digite a altura aqui" required>
 							</div>
 
 							<button type="submit" class="btn btn-success pl-5 pr-5 mt-5">Verificar</button>

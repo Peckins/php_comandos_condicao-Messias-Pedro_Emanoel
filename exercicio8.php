@@ -59,20 +59,24 @@
 		<div class="row">
 				<div class="col-md-12">
 					<div class="jumbotron">
-					
 						<?PHP
-							$numero = $_POST['valor1'];
-	
-							if ($numero < 10){
-								echo "<h3 class='text-center'>o número digitado é menor que 10</h3>";
-							}
-							else if ($numero == 10){
-								echo "<h3 class='text-center'>o número digitado é igual a 10</h3>";
-							}
-							else{
-								echo "<h3 class='text-center'>o n úmero digitado é maior que 10</h3>";
-							}
-						?>
 						
+	                    $Sal     = $_POST ['Salario'];
+	                    $reajus1 = ($Sal * 50) / 100;
+	                    $reajus2 = ($Sal * 30) / 100;
+	                    $Salrea1 = $reajus1 + $Sal;
+	                    $Salrea2 = $reajus2 + $Sal;
+	                   
+	                    if($Sal <= 300 )
+	                    {
+	                        echo "<h3 class='text-center'>Seu salário foi reajustado em 50%: $Salrea1</h3>";
+	                    }
+	                    else if ($Sal >= 300)
+	                    {
+	                         echo "<h3 class='text-center'>Seu salário foi reajustado em 30%: $Salrea2</h3>";
+	                    }
+						?>
 					</div>
-				</div>
+				</div>				
+		</div>
+	</div>

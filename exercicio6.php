@@ -65,13 +65,13 @@
 							$n3 = $_POST['valor3'];
 							$n4 = $_POST['valor4'];
 
-							$nota = $n1 + $n2 + $n3 + $n4 / 4;
+							$media = ($n1 + $n2 + $n3 + $n4) / 4;
 	
-							if($nota > 7){
+							if($media >= 7){
 								echo "<h3 class='text-center'>Você foi aprovado</h3>";
 							}
-							else {
-								echo "<h3 class='text-center>você foi reprovado</h3>"; 
+							else{
+								echo "<h3 class='text-center'>você foi reprovado</h3>"; 
 							}
 						?>
 					</div>

@@ -64,10 +64,10 @@
 							$b = $_POST['valor2'];
 	
 							if($a > $b){
-								echo "<h3 class='text-center'O valor de A é: ".$a."O valor de B é</h3>".$b;
+								echo "<h3 class='text-center'>O valor de A é: ".$a."O valor de B é</h3>".$b;
 							}
 							if($b > $a){
-								echo "<h3 class='text-center'O valor de b é: ".$a."O valor de a é</h3>".$a;
+								echo "<h3 class='text-center'>O valor de b é: ".$a."O valor de a é</h3>".$a;
 							}
 						?>
 					</div>

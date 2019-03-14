@@ -59,20 +59,21 @@
 		<div class="row">
 				<div class="col-md-12">
 					<div class="jumbotron">
-					
 						<?PHP
-							$numero = $_POST['valor1'];
-	
-							if ($numero < 10){
-								echo "<h3 class='text-center'>o número digitado é menor que 10</h3>";
-							}
-							else if ($numero == 10){
-								echo "<h3 class='text-center'>o número digitado é igual a 10</h3>";
-							}
-							else{
-								echo "<h3 class='text-center'>o n úmero digitado é maior que 10</h3>";
-							}
+		                   $H = $_POST['altura'];
+		                   $S = $_POST['sexo'];
+		                   $peso;
+		                   
+		                   if ($S = "Masculino"){
+		                   	$peso = (72.7 * $H) - 58;
+		                   }
+		                   else{
+		                   	$peso = (62.1 * $H) - 44.7;
+		                   }
+		                   
+		                   echo "<h3 class='text-center'>Seu peso ideal é: " . $peso . "</h3>"
 						?>
-						
 					</div>
-				</div>
+				</div>				
+		</div>
+	</div>
