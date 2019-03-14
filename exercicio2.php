@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <script src="js/jquery.min.js"></script>
-<script src="bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
 <!--navbar-->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
