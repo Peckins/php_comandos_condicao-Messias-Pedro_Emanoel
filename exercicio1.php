@@ -59,6 +59,7 @@
 		<div class="row">
 				<div class="col-md-12">
 					<div class="jumbotron">
+					
 						<?PHP
 							$numero = $_POST['valor1'];
 	
@@ -69,6 +70,7 @@
 								echo "<h3 class='text-center'>o número digato é maior que 10</h3>";
 							}
 						?>
+						
 					</div>
 				</div>				
 		</div>

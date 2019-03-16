@@ -68,10 +68,10 @@
 							$nota = $n1 + $n2 + $n3 + $n4 / 4;
 	
 							if($nota > 7){
-								echo "<h3 class='text-center'>Você foi reprovado</h3>";
+								echo "<h3 class='text-center'>Você foi aprovado</h3>";
 							}
 							else {
-								echo "<h3 class='text-center>você foi aprovado</h3>"; 
+								echo "<h3 class='text-center>você foi reprovado</h3>"; 
 							}
 						?>
 					</div>
